@@ -1,0 +1,13 @@
+# A-Maze-ing default configuration
+# Mandatory keys
+WIDTH=20
+HEIGHT=15
+ENTRY=0,0
+EXIT=19,14
+OUTPUT_FILE=maze.txt
+PERFECT=False
+# Optional keys
+# SEED=42                  -> fixed seed (same maze every run); random if absent
+# ALGORITHM=backtracker    -> backtracker (default) or prim
+SEED=42
+ALGORITHM=backtracker
