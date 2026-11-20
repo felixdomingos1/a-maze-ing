@@ -1,0 +1,13 @@
+# Python artifacts
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.mypy_cache/
+.pytest_cache/
+# virtual environments
+.venv/
+venv/
+# generated maze
+maze.txt
